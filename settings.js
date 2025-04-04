@@ -6,11 +6,11 @@ function convertToBool(text, fault = 'true') {
 
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? 'KAVI-EXE=aCQnBQRD#hdOR9Fs0XaF6c-AHX1cdT2qzaxHgp7jWeerYG-RcYv0' : process.env.SESSION_ID,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94760383959' : process.env.OWNER_NUMBER,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'KAVI-EXE=SDIwTYBQ#LmrPvSnWo83VFmvkYQvRxMeCw4PP9mqJ934zO0gZU6E' : process.env.SESSION_ID,
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94784504579' : process.env.OWNER_NUMBER,
 N_JID: process.env.N_JID=== undefined ? '‌': process.env.N_JID,    
-PREFIX: process.env.PREFIX || '.' ,
+PREFIX: process.env.PREFIX || ',' ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,   
 MAX_SIZE: 500,    
-DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '94760383959' : process.env.DELETEMSGSENDTO        
+DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '94784504579' : process.env.DELETEMSGSENDTO        
 };
